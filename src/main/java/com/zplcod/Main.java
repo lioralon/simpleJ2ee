@@ -9,6 +9,8 @@ public class Main {
 
         Car car = Car.getCarByReflect();
         System.out.println(ClassLoaderTest.getLoadOrder());
-        System.out.println("hello");
+        PrivateCar.simulateCall();
+        FileSourceSample .call();
+
     }
 }
